@@ -4,6 +4,6 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-COPY code.py .
+COPY code .
 
 CMD ["python", "code.py"]
